@@ -161,3 +161,9 @@ job_list = {
     "C++ developer": {"salary": 45, "gladness_less": 25},
     "Rust developer": {"salary": 70, "gladness_less": 1},
 }
+
+
+nick = Human(name="Nick")
+for day in range(1, 8):
+    if nick.live(day) == False:
+        break
