@@ -1,12 +1,18 @@
+from select import error
+
 
 class Student:
     student_count = 0
     def __init__(self, height, age, phone=111):
+       try:
         self.height = height
         self.age = age
         self.phone = phone
         print("I am student constructor")
         Student.student_count +=1
+       except error:
+           print(error)
+
 
     def grow(self, height):
         self.height += height
