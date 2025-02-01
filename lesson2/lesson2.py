@@ -6,7 +6,10 @@ class Student:
     def __init__(self, height, age, phone=111):
        try:
         self.height = height
-        self.age = age
+        if type(age) != int:
+            raise TypeError("Enter int value")
+        else:
+            self.age = age
         self.phone = phone
         print("I am student constructor")
         Student.student_count +=1
