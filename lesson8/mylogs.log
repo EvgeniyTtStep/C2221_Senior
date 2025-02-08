@@ -1,9 +1,9 @@
-My logs message:2025-02-01 11:36:58,195:DEBUG:debug
-My logs message:2025-02-01 11:36:58,196:INFO:info
-My logs message:2025-02-01 11:36:58,196:WARNING:warning
-My logs message:2025-02-01 11:36:58,196:ERROR:error
-My logs message:2025-02-01 11:36:58,196:CRITICAL:critical
-My logs message:2025-02-01 11:36:58,196:ERROR:Exception
+My logs message:2025-02-08 09:34:54,181:DEBUG:debug
+My logs message:2025-02-08 09:34:54,182:INFO:info
+My logs message:2025-02-08 09:34:54,182:WARNING:warning
+My logs message:2025-02-08 09:34:54,182:ERROR:error
+My logs message:2025-02-08 09:34:54,182:CRITICAL:critical
+My logs message:2025-02-08 09:34:54,182:ERROR:Exception
 Traceback (most recent call last):
   File "C:\Users\Home\C2221_Senior\C2221_Senior\lesson8\lesson8.py", line 16, in <module>
     print(10 / 0)
